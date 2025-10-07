@@ -49,7 +49,7 @@ $$
 Set $\beta := (-1)^{n-1}/S$, so $|\beta|=1$. Then
 
 $$
-\overline{P'(z_j)} = \betaz_j^{-(n-2)}P'(z_j)\qquad (j=1,\dots,n).
+\overline{P'(z_j)} = \beta z_j^{-(n-2)}P'(z_j)\qquad (j=1,\dots,n).
 $$
 
 ---
@@ -60,7 +60,7 @@ Write $P'(z_j)=C\eta_j$ with $|\eta_j|=1$. From the above,
 
 $$
 \overline{\eta_j}
-= \betaz_j^{-(n-2)}\eta_j,
+= \beta z_j^{-(n-2)}\eta_j,
 $$
 
 hence  
