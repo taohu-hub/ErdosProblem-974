@@ -27,7 +27,7 @@ $$
 be the monic polynomial with these zeros. Then  
 
 $$
-P'(z_j) = \prod_{k\ne j}(z_j-z_k),\qquad |P'(z_j)| = \prod_{k\ne j}|z_j-z_k|.
+P'(z_j) = \prod_{k\ne j}(z_j-z_k)\qquad |P'(z_j)| = \prod_{k\ne j}|z_j-z_k|.
 $$
 
 By hypothesis, $|P'(z_j)|=C>0$ is independent of $j$.
@@ -41,39 +41,39 @@ Let $S := \prod_{m=1}^n z_m$ (so $|S|=1$). Using $\overline{z}=1/z$ on the unit 
 $$
 \overline{P'(z_j)}
 = \prod_{k\ne j}(\overline{z_j}-\overline{z_k})
-= \prod_{k\ne j}\!\left(\frac{1}{z_j}-\frac{1}{z_k}\right)
-= \frac{\prod_{k\ne j}(z_k-z_j)}{z_j^{\,n-1}\,\prod_{k\ne j}z_k}
-= \frac{(-1)^{n-1}}{z_j^{\,n-2}S}\,P'(z_j).
+= \prod_{k\ne j}\left(\frac{1}{z_j}-\frac{1}{z_k}\right)
+= \frac{\prod_{k\ne j}(z_k-z_j)}{z_j^{n-1}\prod_{k\ne j}z_k}
+= \frac{(-1)^{n-1}}{z_j^{n-2}S}P'(z_j).
 $$
 
 Set $\beta := (-1)^{n-1}/S$, so $|\beta|=1$. Then
 
 $$
-\overline{P'(z_j)} = \beta\,z_j^{-(n-2)}\,P'(z_j)\qquad (j=1,\dots,n).
+\overline{P'(z_j)} = \betaz_j^{-(n-2)}P'(z_j)\qquad (j=1,\dots,n).
 $$
 
 ---
 
 #### Step 2: The phases of $P'(z_j)$.
 
-Write $P'(z_j)=C\,\eta_j$ with $|\eta_j|=1$. From the above,
+Write $P'(z_j)=C\eta_j$ with $|\eta_j|=1$. From the above,
 
 $$
 \overline{\eta_j}
-= \beta\,z_j^{-(n-2)}\,\eta_j,
+= \betaz_j^{-(n-2)}\eta_j,
 $$
 
 hence  
 
 $$
-\eta_j^2=\beta^{-1}z_j^{\,n-2}.
+\eta_j^2=\beta^{-1}z_j^{n-2}.
 $$
 
 Choose $\sigma$ with $|\sigma|=1$ and $\sigma^2=\beta^{-1}$. Then for some $\varepsilon_j\in\{\pm1\}$,
 
 $$
-\eta_j=\sigma\,\varepsilon_j\,z_j^{\frac{n-2}{2}}, \qquad
-\frac{1}{P'(z_j)}=\frac{\overline{\sigma}}{C}\,\varepsilon_j\,z_j^{-\frac{n-2}{2}}.
+\eta_j=\sigma\varepsilon_jz_j^{\frac{n-2}{2}}, \qquad
+\frac{1}{P'(z_j)}=\frac{\overline{\sigma}}{C}\varepsilon_jz_j^{-\frac{n-2}{2}}.
 $$
 
 ---
@@ -93,13 +93,13 @@ $$
 Using this for $m=0,1,\dots,n-2$ gives
 
 $$
-\sum_{j=1}^n \varepsilon_j\,z_j^{\,m-\frac{n-2}{2}}=0.
+\sum_{j=1}^n \varepsilon_jz_j^{m-\frac{n-2}{2}}=0.
 $$
 
 Fix any $w_j$ with $w_j^2=z_j$, and define $u_j:=\varepsilon_j w_j$. Then  
 
 $$
-\sum_{j=1}^n u_j^{\,k}=0\qquad (k=1,3,\dots,n-2).
+\sum_{j=1}^n u_j^{k}=0\qquad (k=1,3,\dots,n-2).
 $$
 
 ---
@@ -112,7 +112,7 @@ $$
 Q(t):=\prod_{j=1}^n (t-u_j)=t^n+a_1 t^{n-1}+a_2 t^{n-2}+\cdots+a_n,
 $$
 
-and $p_k:=\sum_{j=1}^n u_j^{\,k}$. Newton's identities imply
+and $p_k:=\sum_{j=1}^n u_j^{k}$. Newton's identities imply
 
 $$
 p_m+a_1 p_{m-1}+a_2 p_{m-2}+\cdots+a_{m-1}p_1+m a_m=0.
@@ -140,7 +140,7 @@ Therefore the $u_j$ are the $n$th roots of $-a_n$, equally spaced.
 
 #### Step 6: Back to $z_j$ and the value of $C$.
 
-Recall $z_j=u_j^{\,2}$. When $n$ is odd, the map $u\mapsto u^2$ permutes the $n$th roots of unity; hence the $z_j$ form a regular $n$-gon. For such a polygon,  
+Recall $z_j=u_j^{2}$. When $n$ is odd, the map $u\mapsto u^2$ permutes the $n$th roots of unity; hence the $z_j$ form a regular $n$-gon. For such a polygon,  
 
 $$
 P(z)=z^n-\omega^n,\quad P'(z)=n z^{n-1},\quad |P'(z_j)|=n.
