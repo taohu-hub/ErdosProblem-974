@@ -118,7 +118,7 @@ $$
 p_m+a_1 p_{m-1}+a_2 p_{m-2}+\cdots+a_{m-1}p_1+m a_m=0.
 $$
 
-From odd-index vanishing, inductively one shows
+We only need use this identity when $m$ is odd. Observe that $p_k = 0$ when $k$ is odd, we have:
 
 $$
 a_{2r+1}=0 \quad\text{for all odd indices up to $n-2$}.
