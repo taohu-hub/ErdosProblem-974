@@ -78,9 +78,9 @@ $$
 
 ---
 
-#### Step 3: Lagrange (barycentric) identities.
+#### Step 3: Lagrange-Hermite formula.
 
-For a monic $P$ with simple zeros $z_j$,
+For a monic $P$ with simple zeros $z_j$, by the theorem of residue, we obtain the Lagrange-Hermite formula:
 
 $$
 \sum_{j=1}^n \frac{z_j^m}{P'(z_j)}=
