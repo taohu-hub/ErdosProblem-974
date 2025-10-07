@@ -134,7 +134,7 @@ $$
 Q(t)=t^n+a_n, \qquad |a_n|=1.
 $$
 
-Therefore the $u_j$ are the $n$th roots of $-a_n$, equally spaced.
+Therefore the $u_j$ are the $n$ th roots of $-a_n$, equally spaced.
 
 ---
 
