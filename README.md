@@ -133,7 +133,7 @@ Thus $C=n$. ∎
 Let $z_1, z_2,\ldots,  z_{2k + 1} \in \mathbb{C}$ with $|z_i| = 1$, and define  
 
 $$
-s_k := \sum_{i=1}^{2k+1} z_i^k, \qquad k \in \mathbb{Z}.
+s_l := \sum_{i=1}^{2k+1} z_i^l, \qquad l \in \mathbb{Z}.
 $$
 
 Assume there exist integers $a < b$ such that
