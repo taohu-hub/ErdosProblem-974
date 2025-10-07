@@ -118,7 +118,7 @@ $$
 
 Therefore the $u_j$ are the $n$ th roots of $-a_n$, equally spaced.
 
-Recall $z_j=u_j^{2}$. When $n$ is odd, the map $u\mapsto u^2$ permutes the $n$th roots of unity; hence the $z_j$ form a regular $n$-gon. For such a polygon,  
+Recall $z_j=u_j^{2}$. When $n$ is odd, the map $u\mapsto u^2$ permutes the $n$ th roots of unity; hence the $z_j$ form a regular $n$-gon. For such a polygon,  
 
 $$
 P(z)=z^n-\omega^n,\quad P'(z)=n z^{n-1},\quad |P'(z_j)|=n.
