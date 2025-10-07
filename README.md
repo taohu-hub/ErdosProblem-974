@@ -108,9 +108,9 @@ $$
 a_{2r+1}=0 \quad\text{for all odd indices up to $n-2$}.
 $$
 
-Since $n$ is odd, due to the fact that $Q(t)$ is a self-inversive polynomial, $a_{2r} = 0$ for $1 \leq r \leq \frac{n-1}{2}$.
+Since $|u_j|=1$, $\forall j$, $Q(t)$ is a self-inversive polynomial.
 
-Since $|u_j|=1$,
+Since $n$ is odd, due to the fact that $Q(t)$ is a self-inversive polynomial, $a_{2r} = 0$ for $1 \leq r \leq \frac{n-1}{2}$.
 
 $$
 Q(t)=t^n+a_n, \qquad |a_n|=1.
