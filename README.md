@@ -85,7 +85,7 @@ For a monic $P$ with simple zeros $z_j$,
 $$
 \sum_{j=1}^n \frac{z_j^m}{P'(z_j)}=
 \begin{cases}
-0,& m=0,1,\dots,n-2,\\[2pt]
+0,& m=0,1,\dots,n-2, \\
 1,& m=n-1.
 \end{cases}
 $$
