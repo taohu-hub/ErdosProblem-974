@@ -124,6 +124,8 @@ $$
 a_{2r+1}=0 \quad\text{for all odd indices up to $n-2$}.
 $$
 
+Since $n$ is odd, due to the fact that $Q(t)$ is a self-inversive polynomial, $a_{2r} = 0$ for $1 \leq r \leq \frac{n-1}{2}$.
+
 ---
 
 #### Step 5: Self-inversive symmetry kills the even coefficients.
