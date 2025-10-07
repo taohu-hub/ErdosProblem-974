@@ -32,10 +32,6 @@ $$
 
 By hypothesis, $|P'(z_j)|=C>0$ is independent of $j$.
 
----
-
-#### Step 1: A conjugation identity at the zeros.
-
 Let $S := \prod_{m=1}^n z_m$ (so $|S|=1$). Using $\overline{z}=1/z$ on the unit circle,
 
 $$
@@ -51,10 +47,6 @@ Set $\beta := (-1)^{n-1}/S$, so $|\beta|=1$. Then
 $$
 \overline{P'(z_j)} = \beta z_j^{-(n-2)}P'(z_j)\qquad (j=1,\dots,n).
 $$
-
----
-
-#### Step 2: The phases of $P'(z_j)$.
 
 Write $P'(z_j)=C\eta_j$ with $|\eta_j|=1$. From the above,
 
@@ -75,10 +67,6 @@ $$
 \eta_j=\sigma\varepsilon_jz_j^{\frac{n-2}{2}}, \qquad
 \frac{1}{P'(z_j)}=\frac{\overline{\sigma}}{C}\varepsilon_jz_j^{-\frac{n-2}{2}}.
 $$
-
----
-
-#### Step 3: Lagrange-Hermite formula.
 
 For a monic $P$ with simple zeros $z_j$, by the theorem of residue, we obtain the Lagrange-Hermite formula:
 
@@ -102,10 +90,6 @@ $$
 \sum_{j=1}^n u_j^{k}=0\qquad (k=1,3,\dots,n-2).
 $$
 
----
-
-#### Step 4: A polynomial with zeros $u_j$.
-
 Let
 
 $$
@@ -126,10 +110,6 @@ $$
 
 Since $n$ is odd, due to the fact that $Q(t)$ is a self-inversive polynomial, $a_{2r} = 0$ for $1 \leq r \leq \frac{n-1}{2}$.
 
----
-
-#### Step 5: Self-inversive symmetry kills the even coefficients.
-
 Since $|u_j|=1$,
 
 $$
@@ -137,10 +117,6 @@ Q(t)=t^n+a_n, \qquad |a_n|=1.
 $$
 
 Therefore the $u_j$ are the $n$ th roots of $-a_n$, equally spaced.
-
----
-
-#### Step 6: Back to $z_j$ and the value of $C$.
 
 Recall $z_j=u_j^{2}$. When $n$ is odd, the map $u\mapsto u^2$ permutes the $n$th roots of unity; hence the $z_j$ form a regular $n$-gon. For such a polygon,  
 
